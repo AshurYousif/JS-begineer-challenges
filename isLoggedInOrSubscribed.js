@@ -1,7 +1,7 @@
 function isLoggedInOrSubscribed(loggedIn, subscrbied) {
   return loggedIn === "LOGGED_IN" || subscrbied === "SUBSCRIBED"
     ? true
-    : false
+    : false;
 }
 
-console.log(isLoggedInOrSubscribed("LOGGED_IN", "SUBSCRIBED"))
+console.log(isLoggedInOrSubscribed("LOGGED_IN", "SUBSCRIBED"));
